@@ -97,6 +97,7 @@ body {
 .card-2 a {
     align-self: center;
     font-weight: 700;
+    color: var(--bright-blue);
 }
 /* Card 3 Styling */
 .card-3 {
@@ -107,12 +108,26 @@ body {
     padding-bottom: 30px;
 }
 
+/* Hover States */
+.card-2 a:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.btn-large:hover {
+    opacity: 0.5;
+}
+
+.btn-small:hover {
+    color: black;
+}
+
 
 /* Media Queries */
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 414px) {
     
     body {
+        background-image: url(/img/pattern-background-mobile.svg);
         align-items: unset;
     }
-
 }
